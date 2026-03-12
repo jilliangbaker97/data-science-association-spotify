@@ -1,7 +1,7 @@
 # 🎵 Can Audio Features Alone Predict Commercial Success?
 ### A Data Science Case Study in Music Analytics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bA0MqDryif_2KnSvUecU0k10Xt1-O_Bd)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1i3YGAW1NYQ392rs0diM5-3SmPTHqQ7Z5)
 
 > **The Question:** Spotify encodes every track with an acoustic fingerprint — danceability, energy, valence, tempo, and more. But does any of that actually predict whether a song becomes a *hit*?
 
