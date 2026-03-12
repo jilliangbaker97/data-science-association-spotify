@@ -1,9 +1,10 @@
 # 🎵 Can Audio Features Alone Predict Commercial Success?
+
 ### A Data Science Case Study in Music Analytics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/spotify-hit-predictor/blob/main/spotify_hit_prediction_student.ipynb)
+[![Open In Colab](https://drive.google.com/file/d/1bA0MqDryif_2KnSvUecU0k10Xt1-O_Bd/view?usp=sharing)
 
-> **The Question:** Spotify encodes every track with an acoustic fingerprint — danceability, energy, valence, tempo, and more. But does any of that actually predict whether a song becomes a *hit*?
+> **The Question:** Spotify encodes every track with an acoustic fingerprint — danceability, energy, valence, tempo, and more. But does any of that actually predict whether a song becomes a _hit_?
 
 In this notebook, we build a complete machine learning pipeline to find out — using nothing but audio features.
 
@@ -38,15 +39,19 @@ spotify-hit-predictor/
 The notebook requires `spotify_cleaned_data.csv`. It is **not included in this repo** (file size). There are two ways to load it:
 
 ### Option A — Upload manually (simplest for one-off use)
+
 Run this cell at the top of the notebook:
+
 ```python
 from google.colab import files
 uploaded = files.upload()  # select spotify_cleaned_data.csv from your computer
 ```
 
 ### Option B — Load from shared Google Drive (recommended for groups)
+
 1. Upload `spotify_cleaned_data.csv` to a shared Google Drive folder
 2. Run this at the top of the notebook:
+
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
@@ -58,18 +63,18 @@ df = pd.read_csv('/content/drive/MyDrive/YOUR_FOLDER/spotify_cleaned_data.csv')
 
 ## 🗺️ Notebook Structure
 
-| Section | What you'll do |
-|---------|---------------|
-| **0. Setup** | Load libraries |
-| **1. Load & Explore** | Understand the dataset's shape, types, and missing values |
-| **2. Define "Hit"** | Engineer a binary target variable from stream counts |
-| **3. EDA** | Visualise stream distributions, feature correlations, and hit vs. non-hit profiles |
-| **4. Preprocessing** | Select features, split data, scale for Logistic Regression |
-| **5. Model Training** | Train Logistic Regression and Random Forest classifiers |
-| **6. Evaluation** | Accuracy, confusion matrices, and ROC-AUC curves |
-| **7. Feature Importance** | Which audio features drive hit prediction? |
-| **8. Conclusions** | Answer the question — and discuss what comes next |
-| **🚀 Your Turn** | Extension challenges across beginner / intermediate / advanced levels |
+| Section                   | What you'll do                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **0. Setup**              | Load libraries                                                                     |
+| **1. Load & Explore**     | Understand the dataset's shape, types, and missing values                          |
+| **2. Define "Hit"**       | Engineer a binary target variable from stream counts                               |
+| **3. EDA**                | Visualise stream distributions, feature correlations, and hit vs. non-hit profiles |
+| **4. Preprocessing**      | Select features, split data, scale for Logistic Regression                         |
+| **5. Model Training**     | Train Logistic Regression and Random Forest classifiers                            |
+| **6. Evaluation**         | Accuracy, confusion matrices, and ROC-AUC curves                                   |
+| **7. Feature Importance** | Which audio features drive hit prediction?                                         |
+| **8. Conclusions**        | Answer the question — and discuss what comes next                                  |
+| **🚀 Your Turn**          | Extension challenges across beginner / intermediate / advanced levels              |
 
 ---
 
@@ -114,4 +119,4 @@ The notebook includes built-in discussion prompts throughout. Key questions to e
 
 ---
 
-*Built for a group data science session · 20,592 Spotify tracks · scikit-learn pipeline*
+_Built for a group data science session · 20,592 Spotify tracks · scikit-learn pipeline_
