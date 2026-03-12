@@ -2,7 +2,7 @@
 
 ### A Data Science Case Study in Music Analytics
 
-[![Open In Colab](https://drive.google.com/file/d/1bA0MqDryif_2KnSvUecU0k10Xt1-O_Bd/view?usp=sharing)
+[![Open In Colab](https://drive.google.com/file/d/1bA0MqDryif_2KnSvUecU0k10Xt1-O_Bd/view?usp=sharing)]
 
 > **The Question:** Spotify encodes every track with an acoustic fingerprint — danceability, energy, valence, tempo, and more. But does any of that actually predict whether a song becomes a _hit_?
 
