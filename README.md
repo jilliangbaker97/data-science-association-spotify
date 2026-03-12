@@ -7,21 +7,6 @@
 
 In this notebook, we build a complete machine learning pipeline to find out — using nothing but audio features.
 
----
-
-## 📋 What's in this repo
-
-```
-spotify-hit-predictor/
-├── spotify_hit_prediction_student.ipynb   ← The main notebook (start here)
-├── data/
-│   └── README.md                          ← How to get the dataset
-├── requirements.txt                       ← For local Python installs
-└── README.md                              ← You're reading it
-```
-
----
-
 ## 🚀 Quickstart (Google Colab — recommended)
 
 1. Click the **Open in Colab** badge above
