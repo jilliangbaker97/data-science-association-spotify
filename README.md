@@ -31,27 +31,6 @@ spotify-hit-predictor/
 
 > ⚠️ **Don't skip the "Save a copy" step!** Without it you're editing a read-only version and your work won't persist.
 
----
-
-## 📦 Dataset Setup
-
-The notebook requires `spotify_cleaned_data.csv`. It is **not included in this repo** (file size). There are two ways to load it:
-
-### Option A — Upload manually (simplest for one-off use)
-Run this cell at the top of the notebook:
-```python
-from google.colab import files
-uploaded = files.upload()  # select spotify_cleaned_data.csv from your computer
-```
-
-### Option B — Load from shared Google Drive (recommended for groups)
-1. Upload `spotify_cleaned_data.csv` to a shared Google Drive folder
-2. Run this at the top of the notebook:
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-# Then update the read_csv line to:
-df = pd.read_csv('/content/drive/MyDrive/YOUR_FOLDER/spotify_cleaned_data.csv')
 ```
 
 ---
